@@ -88,6 +88,9 @@ h3 {
 .margin-bottom {
   margin-bottom: 35px; }
 
+.mg {
+  margin: 0 45px; }
+
 /*************************
 *******Header******
 **************************/
@@ -184,6 +187,45 @@ h3 {
   border: 0;
   color: #d29948; }
 
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+  color: gray;
+  border-color: gray;
+  background-color: gray; }
+
+#home-slider .slide-text {
+  margin: 40px 0px 130px; }
+#home-slider .casita {
+  position: relative;
+  height: 355px; }
+  #home-slider .casita img {
+    position: absolute;
+    bottom: 0; }
+    #home-slider .casita img.slider-house {
+      right: 14%;
+      height: 168px; }
+    #home-slider .casita img.slider-cycle {
+      left: -3%;
+      height: 83px; }
+    #home-slider .casita img.slider-circle1 {
+      top: 145px;
+      left: 28%; }
+    #home-slider .casita img.slider-circle2 {
+      top: 115px;
+      left: 210px; }
+    #home-slider .casita img.slider-cloud1 {
+      top: 20%;
+      left: 37%; }
+    #home-slider .casita img.slider-cloud2 {
+      top: -10%;
+      left: 18%; }
+    #home-slider .casita img.slider-cloud3 {
+      top: 5%;
+      right: 20%; }
+    #home-slider .casita img.slider-sun {
+      top: -14%;
+      right: 35%; }
+
 #services .service-2 {
   padding-top: 20px; }
 
@@ -211,5 +253,44 @@ footer .row {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom; }
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 10%; }
+
+  #home-slider .casita {
+    position: relative;
+    height: 355px; }
+    #home-slider .casita img {
+      position: absolute;
+      bottom: 0; }
+      #home-slider .casita img.slider-house {
+        right: 0%;
+        height: 118px; }
+      #home-slider .casita img.slider-cycle {
+        left: 20%;
+        height: 53px; }
+      #home-slider .casita img.slider-circle1 {
+        top: 55%;
+        left: 10%;
+        height: 20px; }
+      #home-slider .casita img.slider-circle2 {
+        top: 60%;
+        left: 15%;
+        height: 10px; }
+      #home-slider .casita img.slider-cloud1 {
+        top: 20%;
+        left: 35%; }
+      #home-slider .casita img.slider-cloud2 {
+        top: -10%;
+        left: 10%; }
+      #home-slider .casita img.slider-cloud3 {
+        top: 5%;
+        right: 5%; }
+      #home-slider .casita img.slider-sun {
+        top: -40%;
+        left: 50%; } }
 
 /*# sourceMappingURL=main.css.map */
