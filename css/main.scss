@@ -305,8 +305,11 @@ h3 {
 }
 
 footer{
-  background-image:url('../images/home/footer.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
+  .row{
+    background-image:url('../images/home/footer.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
 
+  }
 }

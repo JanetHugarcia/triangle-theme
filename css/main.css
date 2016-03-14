@@ -206,9 +206,10 @@ h3 {
 #action .tour-button {
   padding: 50px 0px 50px 100px; }
 
-footer {
+footer .row {
   background-image: url("../images/home/footer.png");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: bottom; }
 
 /*# sourceMappingURL=main.css.map */
